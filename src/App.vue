@@ -2,6 +2,7 @@
   <div class="app">
     <com-nav></com-nav>
     <com-main></com-main>
+    <com-bar></com-bar>
     <com-footer></com-footer>
   </div>
 </template>
@@ -10,12 +11,14 @@
   import comNav from './components/Nav.vue'
   import comMain from './components/Main.vue'
   import comFooter from './components/Footer.vue'
+  import comBar from './components/Bar.vue'
 
   export default {
     name: 'app',
     components: {
       comNav,
       comMain,
+      comBar,
       comFooter
     },
     data () {
